@@ -3,6 +3,7 @@ from flask import json
 import logging
 import time
 app = Flask(__name__)
+logging.basicConfig(filename='app.log',level=logging.DEBUG)
 
 @app.route("/")
 def hello():
@@ -30,4 +31,4 @@ def metrics():
 
 if __name__ == "__main__":
     logging.basicConfig(filename='app.log',level=logging.DEBUG)
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', debug=True)
