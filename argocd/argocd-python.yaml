@@ -10,6 +10,6 @@ spec:
   project: default
   source:
     path: manifests/python-manifests
-    repoURL: https://github.com/UtkarshSharma26/udacity-cncf
+    repoURL: https://github.com/UtkarshSharma26/cncf-practice
     targetRevision: HEAD
   syncPolicy: {}
