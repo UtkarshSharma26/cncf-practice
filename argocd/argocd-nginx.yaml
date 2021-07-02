@@ -11,7 +11,7 @@ spec:
   source:
     # path to the folder with the YAML manifests
     path: manifests/nginx-manifests
-    repoURL: https://github.com/UtkarshSharma26/udacity-cncf
+    repoURL: https://github.com/UtkarshSharma26/cncf-practice
     targetRevision: HEAD
   # Sync policy
   syncPolicy: {}
